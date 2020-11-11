@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
+# Faker gem - generate fake restaurants
+gem 'faker'
+
 # Bootstrap
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
